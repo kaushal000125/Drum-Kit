@@ -29,35 +29,35 @@ function addSound(key){
   {
 
     case "w":
-    var ton1 = new Audio("sounds/crash.mp3");
+    var ton1 = new Audio("crash.mp3");
     ton1.play();
     break;
 
     case "a":
-    var ton2 = new Audio("sounds/kick-bass.mp3");
+    var ton2 = new Audio("kick-bass.mp3");
     ton2.play();
     break;
 
     case "s":
-    var ton3 = new Audio("sounds/snare.mp3");
+    var ton3 = new Audio("snare.mp3");
     ton3.play();
     break;
 
     case "d":
-    var ton4 = new Audio("sounds/tom-1.mp3");
+    var ton4 = new Audio("tom-1.mp3");
     ton4.play();
     break;
 
     case "j":
-    var ton5 = new Audio("sounds/tom-2.mp3");
+    var ton5 = new Audio("tom-2.mp3");
     ton5.play();
     break;
     case "k":
-    var ton7 = new Audio("sounds/tom-3.mp3");
+    var ton7 = new Audio("tom-3.mp3");
     ton7.play();
     break;
     case "l":
-    var ton6 = new Audio("sounds/tom-4.mp3");
+    var ton6 = new Audio("tom-4.mp3");
     ton6.play();
     break;
     default: console.log(key);
